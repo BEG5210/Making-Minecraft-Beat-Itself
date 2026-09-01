@@ -1,0 +1,174 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="lJ949fCmdp7iDnGj6zOt">
+    <mxGraphModel dx="7503" dy="3717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8mwECzLB4dQReYy_UXHo-9" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Spawm" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-11" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-10" value="Find and mine wood">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-8" parent="1" style="whiteSpace=wrap;html=1;" value="Loop Begins" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-13" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-12" value="Craft Wood Tools&lt;br&gt;Find and mine cobble">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-14" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Wood?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-17" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-19" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-18" value="Craft Tools&lt;br&gt;Craft Furnace&lt;br&gt;Find Iron Ore">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Cobble?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-16" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Overworld Loop" vertex="1">
+          <mxGeometry height="80" width="80" x="535" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-20" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-22" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-21" value="Smelt Iron&lt;div&gt;Craft Iron Tools&lt;/div&gt;&lt;div&gt;Find Diamonds&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Iron Ore?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-23" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-25" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-24" value="Craft Diamond Tools&lt;div&gt;Craft Diamond Armour&lt;/div&gt;&lt;div&gt;Find Obsidian&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Diamonds?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-26" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-45" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-44" value="Go To Surface&lt;div&gt;Craft Flint and Steel / have fire charge&lt;/div&gt;&lt;div&gt;create nether portal&lt;/div&gt;&lt;div&gt;light portal&lt;/div&gt;&lt;div&gt;enter portal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Obsidian?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-38" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1120" as="sourcePoint" />
+            <mxPoint x="380" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-46" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Nether Loop" vertex="1">
+          <mxGeometry height="80" width="80" x="535" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-48" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-47" value="Kill Blaze">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-44" parent="1" style="whiteSpace=wrap;html=1;" value="Enter Nether" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-49" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-51" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-47" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Blaze Powder?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-54" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-50" parent="1" style="whiteSpace=wrap;html=1;" value="Enter Overworld" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-55" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8mwECzLB4dQReYy_UXHo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-57" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-59" value="Craft Eyes of Ender&lt;div&gt;Go To Stronghold&lt;/div&gt;&lt;div&gt;Enter Portal&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Have Enough Ender Pearls?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-64" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-59" parent="1" style="whiteSpace=wrap;html=1;" value="Enter The End" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-62" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8mwECzLB4dQReYy_UXHo-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-61" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="The End Loop" vertex="1">
+          <mxGeometry height="80" width="80" x="535" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-65" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-67" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-66" value="Attack Ender Dragon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-63" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Are All End Crystals Destroyed?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-69" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-68" value="Go To End Portal Coordinates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-70" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8mwECzLB4dQReYy_UXHo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-66" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is Ender Dragon Dead?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-74" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-68" parent="1" style="whiteSpace=wrap;html=1;" value="Wait at end portal cordinates" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-75" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8mwECzLB4dQReYy_UXHo-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="2060" />
+              <mxPoint x="515" y="1960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-77" edge="1" parent="1" source="8mwECzLB4dQReYy_UXHo-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8mwECzLB4dQReYy_UXHo-76" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-73" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="At Credits?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="8mwECzLB4dQReYy_UXHo-76" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="THE END&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="2130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
